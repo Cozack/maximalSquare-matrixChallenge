@@ -1,3 +1,11 @@
+const btn = document.getElementById('btn');
+const spanResult = document.getElementById('spanResult');
+
+btn.addEventListener('click', () => {
+    let strArr = JSON.parse(document.querySelector('.someText').value)
+    spanResult.textContent = MatrixChalange (strArr);
+})
+
 function MatrixChalange (strArr) {
     let maxSquare = 0;
     for (let i = 0; i < strArr.length; i++) {
