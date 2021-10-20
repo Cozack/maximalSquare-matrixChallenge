@@ -1,0 +1,24 @@
+.main {
+    height: 200px;
+    width: 300px;
+
+}
+
+.inputResult  {
+    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    font-size: 36px;
+}
+.executeArea {
+    background-color: bisque;
+    width: auto;
+    height: 30%;
+    padding: 20px;
+
+}
+
+#btn {
+    background-color: olivedrab;
+}
